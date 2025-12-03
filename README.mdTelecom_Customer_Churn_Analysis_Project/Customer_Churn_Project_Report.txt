@@ -1,0 +1,66 @@
+
+==============================
+📄 Customer Churn Project Report
+==============================
+
+Prepared by: Sai Shanth Kumar
+Date: 2025
+
+--------------------------------
+Dataset Summary
+--------------------------------
+Total Customers: 7032
+Churn Rate: 26.58%
+Model Accuracy: 78.25%
+
+--------------------------------
+Insights Summary
+--------------------------------
+
+📌 Key Insights Summary
+
+- The overall churn rate is 26.58%.
+- Customers with higher monthly charges show a higher probability of churn.
+- Customers with low tenure (new customers) churn more frequently compared to long-term customers.
+- Internet service type shows a relationship with churn — Fiber optic users churn more than DSL users.
+- The machine learning model achieved an accuracy of 78.25%, meaning it can reliably identify potential churn customers.
+
+In conclusion, churn is influenced by price sensitivity, length of relationship, and type of service.
+
+
+--------------------------------
+Recommendations
+--------------------------------
+
+📌 Business Recommendations
+
+1. Introduce loyalty benefits for new customers to reduce early churn.
+2. Provide targeted discounts for high-monthly-charge customers identified as high risk.
+3. Improve service experience for fiber-optic customers to reduce dissatisfaction.
+4. Implement proactive outreach before contract end dates for high-risk customers.
+5. Use the churn prediction model to launch personalized retention campaigns.
+
+These actions will significantly lower churn and improve customer lifetime value.
+
+
+--------------------------------
+Business Requirements (BRD)
+--------------------------------
+Requirement ID                                                    Business Requirement Priority
+         BR-01          System must be able to identify churn customers based on data.     High
+         BR-02 Dashboard must show churn KPIs and churn probability for each customer.     High
+         BR-03           Model must predict customer churn with at least 75% accuracy.     High
+         BR-04              System must flag high-risk customers for retention action.   Medium
+
+--------------------------------
+UAT Summary
+--------------------------------
+Test ID                                             Test Case                          Expected Result Status
+ UAT-01   Upload customer data and generate churn probability System accepts input and runs prediction Passed
+ UAT-02               Dashboard displays churn KPIs correctly                   KPIs display correctly Passed
+ UAT-03           Model predicts churn probability accurately Prediction accuracy is above requirement Passed
+ UAT-04 High-risk customers are flagged properly in dashboard               Flagging works as expected Passed
+
+--------------------------------
+End of Report
+--------------------------------
